@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company Profile"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/asobo"
+            android:contentDescription="Company Logo"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asobo Studio adalah pengembang video game yang berbasis di Bordeaux, Prancis. Didirikan pada tahun 2002, perusahaan ini telah berkembang menjadi salah satu pengembang game independen yang terkenal, terutama setelah merilis beberapa judul yang sukses di berbagai platform."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Vision"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visi Asobo Studio adalah menjadi pengembang game terdepan yang dikenal secara global karena kemampuan untuk menciptakan pengalaman bermain yang inovatif, mendalam, dan berkualitas tinggi yang memukau pemain di seluruh dunia."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Mission"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Misi Asobo Studio adalah untuk terus mendorong batas-batas teknologi game dengan menggunakan teknik dan alat terbaru, seperti fotogrametri dan data satelit, untuk menciptakan pengalaman bermain yang realistis dan imersif."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/buttonToDataAlumni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="false"
+            android:layout_margin="16dp"
+            android:text="Go to Data Pegawai" />
+
+    </LinearLayout>
+</ScrollView>
