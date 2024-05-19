@@ -20,4 +20,3 @@ yang belum dibuat
 - Data Alumni
 - Detail Data Alumni
 
-![Uploading 20231122043750.png…]()
