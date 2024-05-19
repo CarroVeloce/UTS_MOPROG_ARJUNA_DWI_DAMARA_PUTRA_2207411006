@@ -4,3 +4,18 @@
 Login :
 username = arjuna
 password = furina
+
+
+yang bisa hanya 
+- Login
+- Fragment Home
+- Fragment Berita
+- Fragment Profile
+- Detail Berita
+
+yang sudah di buat tapi error
+- Tambah Data
+
+yang belum dibuat
+- Data Alumni
+- Detail Data Alumni
